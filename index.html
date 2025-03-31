@@ -180,66 +180,61 @@
 			<div class="container">
 				<div class="row">
 					<aside class="col-lg-6">
-						<!--<img src="images/05-resaAside.jpg"class="img-fluid" alt="cinema clap">-->
+						<img src="images/05-resaAside.jpg"class="img-fluid" alt="cinema sous les etoiles" style="height:85%; padding-top: 30px;">
 					</aside>
 					<article class="col-lg-6">
-						<h2 id="booking">Réservation en ligne</h2>
+						<h2 id="booking">🌟 Réservez votre soirée sous les étoiles</h2>
 						<form class="needs-validation" novalidate id="bookingValidation">				
 							<div class="form-group">
-								<label for="nom">Prénom Nom</label>
-								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+								<label for="nom">👤 Votre nom</label>
+								<input class="form-control" required type="text" name="nom" id="nom" placeholder="ex : Camille Martin" />
 								<div class="invalid-tooltip">
 									Merci de renseigner vos prénom et nom.
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="mail">E-mail</label>
-								<input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+								<label for="mail">📧 Votre e-mail</label>
+								<input class="form-control" required type="email" name="mail" id="mail" placeholder="ex : camille@mail.com" />
 								<div class="invalid-tooltip">
 									Merci de renseigner votre e-mail.
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="phone">Téléphone</label>
-								<input class="form-control" required type="tel" name="phone" id="phone" placeholder="0611223344" />
+								<label for="phone">📱 Votre téléphone</label>
+								<input class="form-control" required type="tel" name="phone" id="phone" placeholder="ex : 0612345678" />
 								<div class="invalid-tooltip">
 									Merci de renseigner votre numéro de téléphone.
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="place">Nb. places</label>
+								<label for="place">🎟 Nombre de places</label>
 								<input class="form-control" type="number" name="place" id="place" min="1" value="1">
 							</div>
 							<div class="form-group">
-								<label for="seance">Séances</label>
+								<label for="seance">🎬 Choisissez votre séance</label>
 								<select class="form-control" required name="seance" id="seance">
 										<option value="" selected disabled>Ma Séance</option>
-									<optgroup label="Date 1">
-										<option value="Heure 1">Heure - Film</option>
-										<option value="Heure 2">Heure - Film</option>
-										<option value="Heure 3">Heure - Film</option>
+									<optgroup label="Lundi 5 août">
+										<option value="18h00">18h00 - L'Auberge Espagnole</option>
+										<option value="20h30">20h30 - Nomadland</option>
+										<option value="22h45">22h45 - Into the Wild</option>
 									</optgroup>
-									<optgroup label="Date 2">
-										<option value="Heure 1">Heure - Film</option>
-										<option value="Heure 2">Heure - Film</option>
-										<option value="Heure 3">Heure - Film</option>
+									<optgroup label="Mardi 6 août">
+										<option value="18h00">18h00 - Tracks</option>
+										<option value="20h30">20h30 - Lost in Translation</option>
+										<option value="22h45">22h45 - Before Sunrise</option>
 									</optgroup>
-									<optgroup label="Date 3">
-										<option value="Heure 1">Heure - Film</option>
-										<option value="Heure 2">Heure - Film</option>
-										<option value="Heure 3">Heure - Film</option>
-									</optgroup>
-									<optgroup label="Date 4">
-										<option value="Heure 1">Heure - Film</option>
-										<option value="Heure 2">Heure - Film</option>
-										<option value="Heure 3">Heure - Film</option>
+									<optgroup label="Mercredi 7 août">
+										<option value="18h00">18h00 - Paris, Texas</option>
+										<option value="20h30">20h30 - Le Grand Voyage</option>
+										<option value="22h45">22h45 - The Secret Life of Walter Mitty</option>
 									</optgroup>
 								</select>
 								<div class="invalid-tooltip">
 									Merci de choisir votre séance.
 								</div>
 							</div>
-							<button type="submit" class="btn btn-custom">Je réserve !</button>
+							<button type="submit" class="btn btn-custom">✨ Réserver ma place ✨</button>
 						</form>
 					</article>
 				</div>
@@ -252,40 +247,41 @@
 			<div class="container">
 				<div class="row">
 					<aside class="col-lg-6">
-						<iframe src="images/Carte.jpg" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</aside>
+						<img src="images/carte.jpg" alt="Carte du Parc Monceau" class="img-fluid" style=" padding-top: 35px; height: 87%;">
+					  </aside>
 					<article class="col-lg-6">
-						<h2 id="contact">Contactez-nous !</h2>
+						<h2 id="contact">💬 Une question ? Un mot doux ?</h2>
+						<p class="mb-4">Écrivez-nous et l’équipe du Festival vous répondra avec plaisir ! Que ce soit pour des infos, des suggestions ou juste un petit message sympa 💌</p>
 						<form class="needs-validation" novalidate id="contactValidation">
 							<div class="form-group">
-								<label for="nom">Prénom Nom</label>
-								<input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Dupond" />
+								<label for="nom">👤 Prénom & Nom</label>
+								<input class="form-control" required type="text" name="nom" id="nom" placeholder="ex : Camille Martin" />
 								<div class="invalid-tooltip">
 									Merci de renseigner vos prénom et nom.
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="mail">E-mail</label>
-								<input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandupond@monmail.fr" />
+								<label for="mail">📧 Adresse e-mail</label>
+								<input class="form-control" required type="email" name="mail" id="mail" placeholder="ex : camille@mail.com" />
 								<div class="invalid-tooltip">
 									Merci de renseigner votre e-mail.
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="sujet">Sujet</label>
+								<label for="sujet">📝 Sujet de votre message</label>
 								<input class="form-control" required type="text" name="sujet" id="sujet" placeholder="Sujet" />
 								<div class="invalid-tooltip">
 									Merci de renseigner le sujet.
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="message">Votre message</label>
-								<textarea class="form-control" required name="message" id="message" rows="5" cols="50" placeholder="Composez votre texte !"></textarea>
+								<label for="message">💌 Votre message</label>
+								<textarea class="form-control" required name="message" id="message" rows="5" cols="50" placeholder="Nous sommes tout ouïe..."></textarea>
 								<div class="invalid-tooltip">
 									Merci de rédiger votre message.
 								</div>
 							</div>
-							<button type="submit" class="btn btn-custom">Envoyer</button>
+							<button type="submit" class="btn btn-custom">📨 Envoyer le message</button>
 						</form>
 					</article>
 				</div>
@@ -297,8 +293,13 @@
 		<footer class="container-fluid footer">
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-12 col-md-3">
-                        <h2>Liens utiles</h2>
+					<div class="col-12 col-md-4 mb-4">
+						<h4 class="text-white">🎬 Festival Plein Air</h4>
+						<p>Du 5 au 7 août 2025, vivez l’expérience du cinéma d’auteur sous les étoiles, dans le cadre enchanteur du Parc Monceau à Paris.</p>
+					</div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Liens</h5>
                         <div class="footerLinks">
                             <a href="index.html">Accueil</a>
                             <a href="films.html">Les Films</a>
@@ -307,26 +308,26 @@
                             <a href="mentions-legales.html">Mentions légales</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 address">
-                        <h2>Contactez-nous</h2>
+					<div class="col-6 col-md-3 mb-3">
+                        <h5>Contact</h5>
                         <div class="contactIcons mb-3">
-                            <p><span class="pr-3"><i class="fas fa-home"></i></span>-Adresse-</p>
-                            <p><span class="pr-3"><i class="fas fa-envelope"></i></span>-Mail-</p>
-                            <p><span class="pr-3"><i class="fas fa-phone"></i></span>-Tél.-</p>
+                            <p><span class="pr-3"><i class="fas fa-home"></i></span>Parc Monceau, Paris</p>
+                            <p><span class="pr-3"><i class="fas fa-envelope"></i></span>contact@festivalpleinair.fr</p>
+                            <p><span class="pr-3"><i class="fas fa-phone"></i></span>+33 1 23 45 67 89</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 partenaire">
-                        <h2>Partenariat</h2>
+                    <div class="col-12 col-md-3 mb-3">
+                        <h5>Partenariat</h5>
                         <div class="contactIcons mb-3">
-                            <ul>
-                                <li>-Partenaire 1-</li>
-                                <li>-Partenaire 2-</li>
-                                <li>-Partenaire 3-</li>
+							<ul class="list-unstyled">
+								<li>🎥 France Télévisions</li>
+								<li>🎞 Région Île-de-France</li>
+								<li>🎬 Mairie de Paris</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 social">
-                        <h2>Suivez-nous !</h2>
+                    <div class="col-12 col-md-3 social" style="margin-top: -90px;">
+						<h5 class="mt-3">📣 Suivez-nous</h5>
                         <div class="socialicons">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-youtube"></i></a>
@@ -337,8 +338,7 @@
             </div>
             <div class="socketBkg ">
                 <div class="socket text-center">
-                    <p>Copyright - Site réalisé par <br>
-                        Université Côte d'Azur - <a href="https://univ-cotedazur.fr/" target="_blank">Univ-Côte d'Azur</a></p>
+					<p class="text-center small">© 2025 Festival des Films de Plein Air — Design par Université Côte d’Azur</p>
                 </div>
             </div>
 		</footer>
