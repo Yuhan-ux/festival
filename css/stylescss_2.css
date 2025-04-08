@@ -4,7 +4,7 @@ body, html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color:#1a1a1a;
+  color: #595959;
   position: relative; }
   body h1, body h2 {
     text-transform: uppercase;
@@ -14,21 +14,19 @@ body {
     border-left: 5px solid #e96b55;
     padding-left: 5%;
     margin-bottom: 3%; }
-  body a {
-    color: #e96b55; }
-    body a:hover {
-      color: #5eab99;
+  body a { color: #c94c3f; }
+    body a:hover { color: #328774;
       text-decoration: none; }
   body .btn-custom {
-    background: transparent;
+    background-color: #1f2c34;
     border: 2px solid #e96b55;
     border-radius: 25px;
-    color: #e96b55;
+    color: #ffffff; background-color: #1a73e8; border-color: #1a73e8;
     font-weight: 600;
     text-transform: uppercase; }
     body .btn-custom:hover {
-      border-color: #1d7c36; ;
-      color: #1d7c36;  }
+      border-color: #5eab99;
+      color: #5eab99; }
   body .container-fluid {
     padding: 0; }
     body .container-fluid aside {
@@ -84,7 +82,7 @@ body {
   min-height: 200px; }
 .welcome article {
   background: #e96b55;
-  color: #fff;
+  color: white;
   text-align: center;
   text-transform: uppercase; }
   .welcome article .date {
@@ -101,8 +99,8 @@ body {
     border-color: #f0f193;
     margin-top: 5%; }
     .welcome article .btn-custom:hover {
-      color: #fff;
-      border-color: #fff; }
+      color: white;
+      border-color: white; }
 
 .about aside {
   background: url("../images/02-Image.jpg") no-repeat center;
@@ -156,18 +154,17 @@ footer .container{
 }
 footer {
   background: #2e4047;
-  color: #fff; }
+  color: white; }
   footer h2 {
     font-size: 1.5rem; }
   footer .footerLinks a {
     display: block;
-    color: #ffffff;
+    color: white; 
     margin-top: 0.5rem;}
     footer .footerLinks a:hover {
-      color: #5eab99;
-      text-decoration: underline; }
+      color: #5eab99; }
   footer .social .socialicons a {
-    color: #fff;
+    color: white;
     font-size: 1.5rem;
     line-height: 45px;
     margin-right: 5%;
@@ -186,18 +183,14 @@ footer {
     footer .socketBkg p {
       padding: 1% 0%; }
   footer h2 {
-    color: #fff; }
+    color: white; }
 footer .partenaire ul li{
   margin-top: 1rem;
 }
-.footerLinks a:hover {
-  color: #ffffff;
-}
-
 .jumbotron {
   background: #5eab99; }
   .jumbotron span {
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
@@ -212,7 +205,7 @@ footer .partenaire ul li{
     color: #e96b55;
     margin: 3% 0%; }
   .container-fluid.filmlist span {
-    color: lightgrey;
+    color: #555555;
     padding-right: 2%; }
 
 .film01 aside {
@@ -287,8 +280,7 @@ footer .partenaire ul li{
   height: auto;
   min-height: 200px; }
 
-.infoBlog {
-  color: lightgrey;
+.infoBlog { color: #666666;
   font-size: x-small; }
 
 .card-title {
@@ -306,3 +298,25 @@ footer .partenaire ul li{
   font-size: 1rem; }
 
 /*# sourceMappingURL=stylescss.css.map */
+.footerLinks a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.socialicons a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.socialicons a:hover {
+  transform: scale(1.2);
+  color: #f8c291;
+}
