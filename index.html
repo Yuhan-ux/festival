@@ -16,13 +16,17 @@
 		<meta property="og:image" content="https://www.festivalpleinair.com/images/og-cover.jpg"/>
 		<meta property="og:description" content="Vivez l’expérience magique du cinéma d’auteur sous les étoiles, du 5 au 7 août 2025 au Parc Monceau. Découvrez la programmation et réservez dès maintenant."/>
 
-		<!--fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700" rel="stylesheet">
-		<!--CSS-->
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+		<!-- CSS -->
 		<link rel="stylesheet" href="css/bootstrap.css">
-		<!--<link rel="stylesheet" href="css/style.css">-->
-		<link rel="stylesheet" href="css/stylescss_3.css">
-		<link rel="stylesheet"  href="webfonts/all.css">
+		<link rel="stylesheet" href="css/stylescss_3.css" media="print" onload="this.media='all'">
+		<link rel="stylesheet" href="webfonts/all.css" media="print" onload="this.media='all'">
+
+		<!-- 图片 preload -->
 		<link rel="preload" href="images/hero.jpg" as="image">
 
 		
@@ -71,7 +75,7 @@
 			<div class="container">
 				<div class="row">
 					<aside class="col-lg-6">
-						<img src="images/01-welcomeAside.jpg" class="img-fluid" alt="Films en plein air" style="height:100%">
+						<img src="images/01-welcomeAside.jpg" class="img-fluid" alt="Films en plein air" style="height:100%" loading="lazy">
 					</aside>
 					<article class="col-lg-6">
 						<p>Festival des Films de Plein Air</p>
