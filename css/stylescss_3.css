@@ -324,6 +324,7 @@ footer .partenaire ul li{
   transform: scale(1.2);
   color: #f8c291;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -334,3 +335,12 @@ footer .partenaire ul li{
   clip: rect(0 0 0 0);
   border: 0;
 }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/OpenSans-Regular.woff2') format('woff2');
+}
+
