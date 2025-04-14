@@ -105,6 +105,7 @@ body {
     .welcome article .btn-custom:hover {
       color: #fff;
       border-color: #fff; }
+  
 
 .about aside {
   background: url("../images/02-Image.jpg") no-repeat center;
@@ -343,4 +344,5 @@ footer .partenaire ul li{
   font-display: swap;
   src: url('fonts/OpenSans-Regular.woff2') format('woff2');  
 }
+
 
